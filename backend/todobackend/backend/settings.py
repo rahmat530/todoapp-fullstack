@@ -134,6 +134,6 @@ REST_FRAMEWORK= {
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
-    'https://todoapp-fullstack.vercel.app',  # ← بعداً آدرس واقعی Vercel رو اینجا میذاری
+    'https://todoapp-backend-z4uo.onrender.com',  # ← بعداً آدرس واقعی Vercel رو اینجا میذاری
 ]
 
