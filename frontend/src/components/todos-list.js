@@ -106,7 +106,7 @@ const TodoList = ({ token }) => {
       )}
     </Container>
   );
-};
+};;
 
 // function TodoList() {
 //   return (<div className="App">Todos List</div>);

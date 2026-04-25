@@ -17,7 +17,7 @@ function App() {
   // const user = null;
   const [user, setUser] = React.useState(null);
   const [token, setToken] = React.useState(null);
-  const [, setError] = React.useState("");
+  const [, setError] = useState(null);
 
   async function login(user = null) {
     TodoDataService.login(user)
