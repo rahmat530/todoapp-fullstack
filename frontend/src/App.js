@@ -15,9 +15,9 @@ import TodoDataService from "./services/todo";
 
 function App() {
   // const user = null;
-  const [user, setUser] = React.useState(null);
-  const [token, setToken] = React.useState(null);
-
+  const [user, setUser] = useState(null);
+  const [token, setToken] = useState(null);
+  const [error, setError] = useState("");
 
   async function login(user = null) {
     TodoDataService.login(user)
