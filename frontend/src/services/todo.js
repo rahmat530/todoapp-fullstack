@@ -53,4 +53,5 @@ class TodoDataService {
   }
 }
 
-export default new TodoDataService();
+const todoService = new TodoDataService();
+export default todoService;
